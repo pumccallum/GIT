@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.contenedor {
+	padding: 20px;
+	display: grid;
+	grid-template-columns: 20% 55% 20%;
+	grid-template-rows: 190px 110px;
+	grid-template-areas: "uno uno dos"
+						 "tres cuatro cinco";
+	grid-gap: 10px;
+}
+
+.a {
+	grid-area: uno;
+	background: url(../img/fondo1.jpg);
+	background-size: cover;
+}
+
+.b {
+	grid-area: dos;
+	background: url(../img/fondo2.jpg);
+	background-size: cover;
+}
+
+.c {
+	grid-area: tres;
+	background: url(../img/fondo3.jpg);
+	background-size: cover;
+}
+
+.d {
+	grid-area: cuatro;
+	background: url(../img/fondo9.jpg);
+	background-size: cover;
+}
+
+.e {
+	grid-area: cinco;
+	background: url(../img/fondo6.jpg);
+	background-size: cover;
+}

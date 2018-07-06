@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.contenedor {
+	padding: 50px;
+	display: grid;
+	grid-template-columns: 200px 200px 400px 200px 200px;
+	grid-template-rows: repeat(3, 190px);
+	grid-template-areas: "uno dos dos tres tres"
+						 "cuatro dos dos cinco cinco"
+						 "seis siete ocho nueve diez";
+	grid-gap: 20px;
+}
+
+.a {
+	grid-area: uno;
+	background: url(../img/fondo1.jpg);
+	background-size: cover;
+}
+
+.b {
+	grid-area: dos;
+	background: url(../img/fondo2.jpg);
+	background-size: cover;
+}
+
+.c {
+	grid-area: tres;
+	background: url(../img/fondo3.jpg);
+	background-size: cover;
+}
+
+.d {
+	grid-area: cuatro;
+	background: url(../img/fondo4.jpg);
+	background-size: cover;
+}
+
+.e {
+	grid-area: cinco;
+	background: url(../img/fondo5.jpg);
+	background-size: cover;
+	
+}
+
+.f {
+	grid-area: seis;
+	background: url(../img/fondo6.jpg);
+	background-size: cover;
+}
+
+.g {
+	grid-area: siete;
+	background: url(../img/fondo7.jpg);
+	background-size: cover;
+}
+
+.h {
+	grid-area: ocho;
+	background: url(../img/fondo8.jpg);
+	background-size: cover;
+}
+
+.i {
+	grid-area: nueve;
+	background: url(../img/fondo9.jpg);
+	background-size: cover;
+}
+
+.j {
+	grid-area: diez;
+	background: url(../img/fondo10.jpg);
+	background-size: cover;
+}
+
